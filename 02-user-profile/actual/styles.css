@@ -1,0 +1,20 @@
+.green-section {
+    background-color: green;
+    color: white
+}
+
+.header-text {
+    text-align: center;
+}
+
+.section-title {
+    font-family: Arial;
+}
+
+li:nth-child(1) {
+    color: cyan;
+}
+
+.strike-through {
+    text-decoration: line-through;
+}
