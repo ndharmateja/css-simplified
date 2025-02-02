@@ -1,0 +1,43 @@
+.input-element {
+    outline: none;
+    padding: .5em;
+    font-size: 1rem;
+    border-radius: .2em;
+    border: 1px solid rgb(170, 170, 170);
+}
+
+.input-element:disabled {
+    background-color: rgb(234, 234, 234);
+    cursor: not-allowed;
+}
+
+.input-element:focus-visible {
+    border-color: rgb(0, 170, 255);
+    box-shadow: 0 0 5px 0 rgb(0, 170, 255);
+}
+
+.input-element.large {
+    font-size: 1.25rem;
+}
+
+.input-element.small {
+    font-size: 0.75rem;
+}
+
+.input-element.success {
+    border: 1px solid rgb(35, 164, 85);
+}
+
+.input-element.success:focus-visible {
+    border-color: rgb(0, 255, 0);
+    box-shadow: 0 0 5px 0 rgb(0, 255, 0);
+}
+
+.input-element.error {
+    border: 1px solid rgb(232, 77, 77);
+}
+
+.input-element.error:focus-visible {
+    border-color: rgb(255, 0, 0);
+    box-shadow: 0 0 5px 0 rgb(255, 0, 0);
+}
